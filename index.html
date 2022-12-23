@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Assessment 1.0</title>
+    <style>
+        .lists{
+            text-align: center;
+            width: fit-content; 
+            margin: auto;
+        }
+    </style>
+    
+</head>
+<body align="center">
+    <h1>HTML Assessment</h1>
+    <br>
+    <div>HTML Assessment from PrepBytes</div><br><br>
+    <hr>
+    <div>
+        <h3>Form</h3>
+        <form action="submit">
+            <div>
+            <fieldset><legend><b>Contact</b></legend></legend>
+          <label for="name">Name :</label>
+          <input type="text" placeholder="Name Here" maxlength="30" required id="name"> <br><br>
+
+          <label for="mail">Email :</label>
+          <input type="email" placeholder="Email Address Here" maxlength="35" required id="mail"> <br><br>
+
+         <label for="pass_word">Password :</label>
+         <input type="password" placeholder="Case Sensitive" name="password" id="pass_word" required minlength="8" maxlength="14"><br><br>
+
+         <label for="phone">Phone No :</label>
+         <input type="tel" placeholder="Phone Number Here" name="phoneno" id="phone" required minlength="10" maxlength="10"><br><br>
+        </fieldset></div><br>
+
+         <div>
+            <fieldset><legend><b>Language</b></legend>
+            <input type="radio" name="lang" id="react"><label for="react">React</label><br>
+
+            <input type="radio" name="lang" id="ang"><label for="ang">Angular</label><br>
+
+            <input type="radio" name="lang" id="vue"><label for="vue">Vue</label><br>
+            </fieldset>
+        </div><br>
+
+        <div>
+            <fieldset><legend><b>Course</b></legend> </<br>
+            <input type="checkbox" name="mern" id="mern"><label for="mern">MERN</label><br>
+            <input type="checkbox" name="mean" id="mean"><label for="mean">MEAN</label><br>
+            <input type="checkbox" name="mevn" id="mevn"><label for="mevn">MEVN</label><br>
+            </fieldset>
+        </div><br>
+
+        <label for="field"><b>Field</b></label><br>
+        <select name="myfield" id="field" required>
+            <option value="frontend">Front End</option>
+            <option value="backend"> Back End</option>
+            <option value="fullstack">Full Stack</option>
+        </select>
+        <br><br>
+        <input type="submit" name="submit" id="submit" value="Submit Now">
+    </form>
+    </div>
+    <br><br><hr>
+
+    <div style="color: blue;">
+    <p>Image used from Absolute path</p><br>
+        <img src="https://www.webskittersacademy.in/wp-content/uploads/2015/08/Web-Developer-skill.jpg" alt="Programming Dude" width="250px
+        "><br>
+        <p>Image used from Relative Path</p><br>
+        <img src="/Live Assessment/LA-1/logoPrepBytes.svg" alt="PrepBytes Logo" width="250px"><br><br>
+
+        <a href="https://www.prepbytes.com/" target="_blank">Visit PrepBytes in another tab</a><br><br>
+        <a href="https://www.neom.com/en-us" target="_parent">My Dream Organisation in this tab</a><br><br><hr>
+    </div>
+
+    <div class="lists">
+        <h3>List</h3>
+        <ul type="square">
+            <li>Mobile Development</li>
+            <li>Web Development</li>
+            <ul type="disc">
+                <li>React</li>
+                <li>Angular</li>
+                <li>Vue</li>
+            </ul>
+            <li>Cloud Server</li>
+        </ul>
+    </div>
+    <br><hr>
+    <div>
+        <h3>Table</h3>
+        <table>
+            <table border="2" width="60%" align="center">
+            <thead>
+            <tr>
+                <th>Course</th>
+                <th style="background-color: grey;" colspan="2">Contact Detail</th>
+                <th>Date of Joining</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Elevation Academy</td>
+                <td colspan="2">1234567890</td>
+                <td>2nd Dec 2022</td>
+            </tr>
+
+            <tr>
+                <td style="background-color: grey;">Elevation Academy</td>
+                <td rowspan="2">1234567890</td>
+                <td colspan="2">2nd Dec 2022</td>
+            </tr>
+
+            <tr>
+                <td>Elevation Academy</td>
+                <td style="background-color: grey;">2nd Dec 2022</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+        </table>
+        <br><hr>
+    </div>
+    </body>
+    </html>
+
+                
+
+
+                
+
+    
+
+
+
+
